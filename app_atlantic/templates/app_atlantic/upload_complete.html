@@ -1,0 +1,11 @@
+{% extends 'app_atlantic/base.html' %}
+
+{% block content %}
+
+	{% if upload_status == 'success' %}
+	<h1>Upload Complete!</h1>
+	{% elif upload_status == 'failed' %}
+	<h1 color='red'>There was a problem uploading your file. Please try again later.</h1>	
+	{% endif %}
+
+{% endblock %}

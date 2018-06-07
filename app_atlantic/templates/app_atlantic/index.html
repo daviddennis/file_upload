@@ -1,0 +1,12 @@
+{% extends 'app_atlantic/base.html' %}
+
+{% block content %}
+
+    <form id="fileform" action="/atlantic/upload/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="daily_file" size="40">
+        <br/>
+        <input type="submit"></input>
+    </form>
+
+{% endblock %}
