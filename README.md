@@ -17,6 +17,7 @@ Requirements:
  - Postgres
 
 To Run:
+
 	1. Activate a virtualenv
 	2. "pip install -r requirements.txt"
 	3. Set the correct DB credentials in atlantic/settings.py
