@@ -2,7 +2,7 @@ Overview
 ========
 
 This project (Django) will read in a TSV and save Customer and Product models once per line.
-An Upload instance is saved and related to the Customers and Products pulled form the TSV. 
+An Upload instance is saved and related to the Customers and Products pulled from the TSV. 
 The internal product and customer ID's have indices for added performance when querying.
 Although I did not end up having time to optimize for large files, the current
 function will go through the file one line at a time, without loading the whole
