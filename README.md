@@ -7,7 +7,8 @@ Although I did not end up having time to optimize for large files, the current
 function will go through the file one line at a time, without loading the whole
 file into memory. The post-upload screen will display whether the upload was 
 successful or not.
-	In an ideal project the upload would kick off a Celery task that would
+
+In an ideal project the upload would kick off a Celery task that would
 process the file separately and periodically report back details on parsing 
 success/failure which would be relayed via AJAX calls back to the user.
 
