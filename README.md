@@ -1,7 +1,6 @@
-Atlantic Code Test - David Dennis
-=================================
+Overview
+========
 
-Overview:
 	This project will read in a TSV and save Customer and Product models once per line.
 The internal product and customer ID's have indices for added performance when querying.
 Although I did not end up having time to optimize for large files, the current
